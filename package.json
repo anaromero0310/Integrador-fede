@@ -1,16 +1,14 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Backend del sistema de turnos",
+  "type": "module",
   "main": "servidor.js",
   "scripts": {
-    "inicio": "node servidor.js",
+    "start": "node servidor.js",
     "dev": "nodemon servidor.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
 }
-
